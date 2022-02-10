@@ -18,9 +18,9 @@ let firstItem = arr[0]
 */
 
 //Code Here
-// lastItemRemoved = arr.pop()
-// console.log(lastItemRemoved)
-// console.log(arr)
+lastItemRemoved = arr.pop()
+console.log(lastItemRemoved)
+console.log(arr)
 
 ////////// PROBLEM 3 //////////
 
@@ -32,10 +32,10 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
   Loop through the 'family' array and console.log every item.
 */
 
-// Code Here
-// for(let i = 0; i < family.length; i++){
-//   console.log(family[i])
-// }
+//Code Here
+for(let i = 0; i < family.length; i++){
+  console.log(family[i])
+}
 
 
 
@@ -101,8 +101,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 */
 
 // //Code Here
-// let someNum = myFavoriteNumbers[4]
-// console.log(someNum)
+let someNum = myFavoriteNumbers[4]
+console.log(someNum)
 
 
 ////////// PROBLEM 7 //////////
@@ -116,11 +116,11 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
-// if(myFavoriteNumbers.length < 7){
-//   console.log("not enough elements in this array")
-// }else if(myFavoriteNumbers.length >= 7){
-//   someNum = myFavoriteNumbers[6]
-// }
+if(myFavoriteNumbers.length < 7){
+  console.log("not enough elements in this array")
+}else if(myFavoriteNumbers.length >= 7){
+  someNum = myFavoriteNumbers[6]
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -132,11 +132,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 //console.log '{number} is divisible by 3.'
 
 //Code Here
-// for(let i = 0; i < listOfNumbers.length; i ++){
-//   if(listOfNumbers[i] % 3 === 0){
-//     console.log(`${listOfNumbers[i]} is dividible by three`)
-//   }
-// }
+for(let i = 0; i < listOfNumbers.length; i ++){
+  if(listOfNumbers[i] % 3 === 0){
+    console.log(`${listOfNumbers[i]} is dividible by three`)
+  }
+}
 
 
 ////////// PROBLEM 9 //////////
@@ -148,11 +148,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop backwards, starting at the end of the 'letters' array. Console log every item in the array.
 */
 
-//Code Here
-// for(i = 5; i >= 0; i--){
-//   console.log(letters[i])
+// Code Here
+for(i = 5; i >= 0; i--){
+  console.log(letters[i])
 
-// }
+}
 
 
 ////////// Advanced Problems //////////
@@ -175,7 +175,20 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+switch(letterGrade){
+  case 'A': console.log("The student is doing excellently.")
+    break;
+  case 'B': console.log("the student is doing well")
+    break;
+  case 'C': console.log("The student is doing alright.")
+    break;
+  case 'D': console.log("The student is not doing very well.")
+    break;
+  case 'F': console.log("The student is failing.")
+    break;
+  default: console.log("Not an eligible grade")
 
+}
 
 
 ////////// PROBLEM 11 //////////
