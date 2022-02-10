@@ -52,12 +52,12 @@ let evensArr = []
 */
 
 // //Code Here
-// for(let i = 0; i < nums.length; i++){
-//   if(nums[i] % 2 === 0){
-//     evensArr.push(nums[i])
-//   }
-// }
-// console.log(evensArr)
+for(let i = 0; i < nums.length; i++){
+  if(nums[i] % 2 === 0){
+    evensArr.push(nums[i])
+  }
+}
+console.log(evensArr)
 
 
 
@@ -74,16 +74,16 @@ var score = 74
 */
 
 //Code Here
-if(score >= 90){
-  console.log('A')
-}else if(score >= 80 && score < 89){
-  console.log('B')
-}else if(score >= 70 && score < 79){
-  console.log('C')
-}else if(score < 70){
-  console.log('F')
-}
-console.log(score)
+// if(score >= 90){
+//   console.log('A')
+// }else if(score >= 80 && score < 89){
+//   console.log('B')
+// }else if(score >= 70 && score < 79){
+//   console.log('C')
+// }else if(score < 70){
+//   console.log('F')
+// }
+// console.log(score)
 
 
 ////////// Intermediate Problems //////////
@@ -98,9 +98,9 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
   Create a variable named 'someNum' and set it equal to the fifth value of the 'myFavoriteNumbers' array.
 */
 
-//Code Here
-let someNum = myFavoriteNumbers[4]
-console.log(someNum)
+// //Code Here
+// let someNum = myFavoriteNumbers[4]
+// console.log(someNum)
 
 
 ////////// PROBLEM 7 //////////
@@ -114,11 +114,11 @@ console.log(someNum)
 
 //Code Here
 
-if(myFavoriteNumbers.length < 7){
-  console.log("not enough elements in this array")
-}else if(myFavoriteNumbers.length >= 7){
-  someNum = myFavoriteNumbers[7]
-}
+// if(myFavoriteNumbers.length < 7){
+//   console.log("not enough elements in this array")
+// }else if(myFavoriteNumbers.length >= 7){
+//   someNum = myFavoriteNumbers[6]
+// }
 
 ////////// PROBLEM 8 //////////
 
@@ -126,9 +126,15 @@ if(myFavoriteNumbers.length < 7){
 var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 // Do not edit the code above.
 
-// Use a for-loop to iterate through 'listOfNumbers', checking to see if each number is divisible by 3. If it is, console.log '{number} is divisible by 3.'
+// Use a for-loop to iterate through 'listOfNumbers', checking to see if each number is divisible by 3. If it is, 
+//console.log '{number} is divisible by 3.'
 
 //Code Here
+// for(let i = 0; i < listOfNumbers.length; i ++){
+//   if(listOfNumbers[i] % 3 === 0){
+//     console.log(`${listOfNumbers[i]} is dividible by three`)
+//   }
+// }
 
 
 ////////// PROBLEM 9 //////////
@@ -141,6 +147,10 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
+// for(i = 5; i >= 0; i--){
+//   console.log(letters[i])
+
+// }
 
 
 ////////// Advanced Problems //////////
